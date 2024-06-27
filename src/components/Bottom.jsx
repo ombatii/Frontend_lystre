@@ -59,9 +59,10 @@ const Bottom = () => {
         </section>
       </div>
       <section className="relative  w-full m-auto px-4 ">
-        
-          <p className="text-white text-center">© 2024, Lystra Automart</p>
-          <div className="absolute right-0 bottom-0 flex items-center">
+        <p className="text-white text-left md:text-center">
+          © 2024, Lystra Automart
+        </p>
+        <div className="absolute right-0 bottom-0 flex items-center">
           <p className="text-white p-2">Powered by</p>
           <img className="h-6" src={"Logo/ToséLogo.png"} alt="tose" />
         </div>
